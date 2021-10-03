@@ -1,4 +1,4 @@
-// Java program to print all the permutations of a string
+// Java program to print all the permutations of a String
 public class Main {
   
     // Function to print all the permutations of a string
