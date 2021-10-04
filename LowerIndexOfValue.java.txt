@@ -1,0 +1,75 @@
+package com.company;
+
+public class LowerIndexOfValue {
+    public static void main(String[] args){
+        int[] a={2,3,4,5,3,1,1};
+        int target=1;
+        System.out.println(search(a,target));
+
+    }
+
+    static int search(int a[],int target){
+        int peak=mountainarray(a);
+        int start=0;
+        int firstTry=orderagnosticBs(a,target,start,peak);
+        if (firstTry!=-1){
+            return firstTry;
+        }
+        return orderagnosticBs(a,target,peak+1,a.length-1);
+    }
+
+
+    static int orderagnosticBs(int[] array,int target,int start,int end){
+
+        //find whether the array is sorted in ascending or des cending
+
+        boolean isASC = array[start]<array[end];
+        //OR
+
+//        if(array[start]<array[end])
+//            isASC=true;
+//        else
+//            isASC=false;
+
+        while(start<=end){
+            int middle=start+(end-start)/2;    // we could have taken (start+end)/2 but the thing is it can
+            // exceed the integer range when we add start and end that why we use
+            if(array[middle]==target)         // middle=start+(end-start)/2; formula
+                return  middle;
+            if(isASC){
+                if(target>array[middle]){
+                    start=middle+1;
+                }
+                if(target<array[middle]){
+                    end=middle-1;
+
+                }
+            }else {
+                if(target>array[middle]){
+                    end=middle-1;
+
+                }
+                if(target<array[middle]){
+                    start=middle+1;
+                }
+            }
+
+
+        }
+        return -1;
+    }
+
+    static int mountainarray(int[] arr){
+        int start=0;
+        int end=arr.length-1;
+        while(start<end){
+            int mid = start+(end-start)/2;
+            if(arr[mid]>arr[mid+1])
+                end=mid;
+            else start=mid+1;
+        }
+        return start;
+    }
+
+
+}
