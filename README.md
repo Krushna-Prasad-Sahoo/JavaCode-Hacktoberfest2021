@@ -2,3 +2,44 @@
 ### Java is one of the most popular programming language.
 ### Spring is a popular java framework.
 ### Oracle Corporation is the current owner of the official implementation of the Java SE Platform.
+ - Add.java
+ - AddThreadSample.java
+ - AnimalsArrayList.java
+ - ArrayListOne.java
+ - ArrayListThree.java
+ - ArrayListTwo.java
+ - ArraySort.java
+ - DecimalToBinary.java
+ - Factorial.java
+ - GirlFriendGuessPrank.java
+ - Java Program to Calculate the Power of a Number
+ - Java Program to Check Palindrome
+ - Java Program to Check Whether a Character is Alphabet or Not
+ - Java Program to Check Whether a Number is Positive or Negative
+ - Java Program to Display Armstrong Numbers Between Intervals Using Function
+ - Java Program to Find ASCII Value of a character
+ - Java Program to Reverse a Number
+ - Java Program to count the total number of characters in a string
+ - Java program to convert a given binary tree to doubly linked list
+ - Java program to create a doubly linked list of n nodes and count the number of nodes
+ - Java-Program-to-Find-LCM-of-two-Numbers
+ - Java-Program-to-Print-Permutations-of-String.java 
+ - Java_program_to_Find_GCD_of_two_Numbers.java
+ - LinkedListOne.java
+ - LinkedListTwo.java
+ - LowerIndexOfValue.java.txt
+ - Matrix.java
+ - MethodOverloadSample.java
+ - Palindrome.java
+ - Program to copy all elements of one array into another array
+ - RGB_to_Gray.java
+ - SumEvenAtEvenPostion.java
+ - TernaryOperation.java
+ - fibonacci.java
+ - fileCreate.java
+ - firstMissingPostive.java
+ - inverse of a matrix.java
+ - java program to display ATM transaction.java
+ - maximum and minimum using max and min command
+ - mobile_number.java
+ - pattern.java
