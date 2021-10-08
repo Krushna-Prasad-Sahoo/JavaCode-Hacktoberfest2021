@@ -45,7 +45,6 @@ int x = 0;
 //executes until num does not become not '\0'  
 while (x < num.length)   
 {  
-//executes if the length of the string is greater than equal to three  
 if (len >= 3)   
 {  
 if (num[x] - '0' != 0)   
