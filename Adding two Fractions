@@ -1,0 +1,21 @@
+import java.util.*;
+public class addtwofractions {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a,b,c,d,gcd=0,m,n;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        m=(a*d)+(b*c);
+        n=b*d;
+        for(int i=1;i<=m&&i<=n;i++){
+            if(m%i==0&&n%i==0)
+            gcd=i;
+        }
+        int p=m/gcd;
+        int q=n/gcd;
+        System.out.println(q);
+        System.out.println(""+p+"/"+q);
+    }
+}
