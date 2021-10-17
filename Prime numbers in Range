@@ -1,19 +1,20 @@
 import java.util.*;
-public class primenumbersinrange {
+public class Star {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int a,b,i,j,prime;
-        a=sc.nextInt();
-        b=sc.nextInt();
-        for(i=a;i<=b;i++){
+        int x,y,prime;
+        x=sc.nextInt();
+        y=sc.nextInt();
+        System.out.println("Prime numbers");
+        for(int i=x;i<=y;i++){
             prime=1;
-            for(j=2;j<=i;j++){
+            for(int j=2;j<=i;j++){
             if(i%j==0){
            prime=prime+1;
             }
             }
             if(prime==2)
-            System.out.print(" "+i);
+            System.out.print("\n"+i);
         }
     }
-    }
+}
