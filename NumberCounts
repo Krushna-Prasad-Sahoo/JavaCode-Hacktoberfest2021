@@ -1,0 +1,27 @@
+import java.util.*;
+Public class Ans{
+public static void main(String[] args){
+Scanner s = new Scanner(System.in);
+int[] z = new int[20];
+intpos= 0;
+intneg= 0;
+intodd = 0;
+inteven = 0;
+intzero = 0;
+for(inti= 0;i<z.length;i++){
+System.out.println("Print the value of z["+i+"]");
+z[i] = s.nextInt();
+if(z[i]>0){
+pos++;
+}else if(z[i]<0){
+neg++;
+}else{
+zero++;
+}
+if(z[i]%2==0){
+even++;
+}else{
+odd++;
+} }
+System.out.println("Positive : "+pos+"\nNegative: "+neg+"\nZero: "+zero+"\nodd: "+odd+"\neven: "+even);
+}}
